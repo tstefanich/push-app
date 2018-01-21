@@ -16,7 +16,6 @@
  * specific language governing permissions and limitations
  * under the License.
  */
-
 var app = {
     // Application Constructor
     initialize: function() {
@@ -40,17 +39,11 @@ var app = {
     },
     setupPush: function() {
         console.log('calling push init');
-
-
-     
-
         var push = PushNotification.init({
             "android": {
-                
+                "senderID": "XXXXXXXX"
             },
-            "browser": {
-                 pushServiceURL: 'http://push.api.phonegap.com/v1/push'
-            },
+            "browser": {},
             "ios": {
                 "sound": true,
                 "vibration": true,

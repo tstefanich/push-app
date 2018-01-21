@@ -5,14 +5,18 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "displayName": "helloworld",
-  "dependencies": {
-    "phonegap-plugin-push": "^1.8.4"
-  },
   "cordova": {
     "plugins": {
       "phonegap-plugin-push": {
-        "SENDER_ID": "344217977904"
+        "SENDER_ID": "XXXXXXX"
       }
-    }
+    },
+    "platforms": [
+      "android"
+    ]
+  },
+  "dependencies": {
+    "phonegap-plugin-push": "~1.8.0",
+    "cordova-android": "~6.3.0"
   }
 }

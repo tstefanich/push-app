@@ -5,6 +5,8 @@
       "id": "phonegap-plugin-push@~1.8.0"
     },
     "is_top_level": true,
-    "variables": {}
+    "variables": {
+      "SENDER_ID": "XXXXXXX"
+    }
   }
 }
