@@ -6,11 +6,6 @@
   },
   "displayName": "helloworld",
   "cordova": {
-    "plugins": {
-      "phonegap-plugin-push": {
-        "SENDER_ID": "344217977904"
-      }
-    },
     "platforms": [
       "android"
     ]
